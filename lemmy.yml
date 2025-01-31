@@ -113,7 +113,7 @@
           - "python3-setuptools"
       tags:
         - dependencies
-          - "cron"
+        - cron
 
     - name: Configure Docker apt repo for Ubuntu < 22.04
       when: ansible_distribution == 'Ubuntu' and ansible_distribution_version < '22.04'
